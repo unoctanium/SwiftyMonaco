@@ -13,10 +13,6 @@ let package = Package(
         .library(
             name: "SwiftyMonaco",
             targets: ["SwiftyMonaco"]),
-        .library(
-            name: "SwiftyMonacoDynamic",
-            type: .dynamic,
-            targets: ["SwiftyMonaco"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
